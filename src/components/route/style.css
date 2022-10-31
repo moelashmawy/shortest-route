@@ -1,0 +1,46 @@
+.whole--route {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.one--city {
+    display: flex;
+}
+
+.one--city:first-child .city--name {
+    position: relative;
+    left: 15px;
+    border: unset;
+}
+
+.one--city:last-child .city--name {
+    position: relative;
+    right: 45px;
+    border: unset;
+}
+
+.city--name {
+    border-bottom: 3px solid black;
+}
+
+.city--name:before {
+    content: '';
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    background: black;
+    top: 24px;
+    left: 35px;
+    box-shadow: inherit
+}
+
+.route--distance {
+    width: 200px;
+    height: 30px;
+    border-bottom: 3px solid black;
+    font-size: 12px;
+    color: brown;
+}
