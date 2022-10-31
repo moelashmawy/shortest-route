@@ -1,0 +1,14 @@
+.travel--info {
+    display: flex;
+    justify-content: center;
+}
+
+.info--item {
+    margin: 15px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.info--item span {
+    margin-left: 10px;
+}
