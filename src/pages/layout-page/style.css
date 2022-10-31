@@ -1,0 +1,13 @@
+.navbar {
+  background-color: darkslategray;
+  display: flex;
+  height: 30px;
+}
+
+.navbar a {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  margin-left: 10px;
+  line-height: 30px;
+}
