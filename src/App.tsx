@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+
+import "./App.css";
+import "react-toastify/dist/ReactToastify.css";
+import HomePage from "./pages/home-page/HomePage";
+import { Toastr } from "./components/toaster/Toaster";
+import { NotFoundPage } from "./pages/NotFoundPage";
+import { About } from "./pages/About";
+import { LayoutPage } from "./pages/layout-page/LayoutPage";
+import ResultsPage from "./pages/results-page/ResultsPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<LayoutPage />}>
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<About />} />
+          <Route path="results" element={<ResultsPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Route>
+      </Routes>
+
+      <Toastr />
     </div>
   );
 }
