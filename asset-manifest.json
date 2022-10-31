@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shortest-route/static/css/main.a027c915.css",
+    "main.js": "/shortest-route/static/js/main.93719ec9.js",
+    "static/js/787.923c03cb.chunk.js": "/shortest-route/static/js/787.923c03cb.chunk.js",
+    "static/media/Icon404.svg": "/shortest-route/static/media/Icon404.852a331eea2fd223be62ede5d9814f51.svg",
+    "static/media/Bus.svg": "/shortest-route/static/media/Bus.77723e775cc0c8fa1763096437589e3c.svg",
+    "static/media/Traveler.svg": "/shortest-route/static/media/Traveler.7e81999b7ebc1c31a9e5020fcf311fc1.svg",
+    "static/media/Distance-between.svg": "/shortest-route/static/media/Distance-between.7720c7fa122a21291239d5949b31d80e.svg",
+    "static/media/Car.svg": "/shortest-route/static/media/Car.329693d5339ab928cb00f916802c4ea2.svg",
+    "static/media/Delete-button.svg": "/shortest-route/static/media/Delete-button.97a44f28eab6fa0f36f05a37f4658dab.svg",
+    "static/media/RightArrow.svg": "/shortest-route/static/media/RightArrow.baaaa667f83f8b26f96f10bcbeb128d9.svg",
+    "static/media/Date-icon.svg": "/shortest-route/static/media/Date-icon.22c2a25b26413adc6a72ab76a1013bbc.svg",
+    "index.html": "/shortest-route/index.html",
+    "main.a027c915.css.map": "/shortest-route/static/css/main.a027c915.css.map",
+    "main.93719ec9.js.map": "/shortest-route/static/js/main.93719ec9.js.map",
+    "787.923c03cb.chunk.js.map": "/shortest-route/static/js/787.923c03cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a027c915.css",
+    "static/js/main.93719ec9.js"
+  ]
+}
