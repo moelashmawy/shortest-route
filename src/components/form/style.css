@@ -1,0 +1,102 @@
+.combo--form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    height: fit-content;
+    min-height: 250px;
+    margin-top: 10%;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.intermediate--box {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.combo--line {
+    height: 50px;
+    border-left: 6px solid white;
+    margin-right: 5px;
+}
+
+.combo--line::before {
+    content: "";
+    display: block;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    right: 8px;
+    top: 20px;
+}
+
+.combobox--tag {
+    color: white;
+    width: 50px;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+.remove--combobox {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.add--combobox {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: unset;
+    cursor: pointer;
+    float: left;
+    margin-left: 48px;
+    background-color: white;
+}
+
+.input--tag {
+    color: white;
+}
+
+.date--picker {
+    height: 35px;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    padding: 0 3px;
+    color: #000;
+    border: unset;
+    cursor: pointer;
+}
+
+.number--picker {
+    height: 31px;
+    width: 85px;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    outline: none;
+    border: unset;
+
+}
+
+.submit--form {
+    background-color: white;
+    border: unset;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
